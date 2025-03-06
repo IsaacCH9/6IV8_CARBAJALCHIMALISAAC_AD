@@ -1,2 +1,0 @@
-Ejemplo git
-ahora toca llorar por hacer la tarea de jupyterlab
