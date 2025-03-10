@@ -1,5 +1,5 @@
 import pandas as pd
-##Escribir una funcion  que reciba un diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con minimo, maximo, media, desviacion tipica.
+##Escribir una funcion  que reciba un diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con minimo, maximo, media, desviacion tipica
 def estadistica_notas(notas):
     notas = pd.Series(notas)
     estadisticas =  pd.Series([notas.min(),notas.max(),notas.mean(),
