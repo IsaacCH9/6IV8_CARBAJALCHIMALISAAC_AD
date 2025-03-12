@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('housing.csv')
 
-#mostrar las primeras 5 filas
+#mostrar las primeras 5 filas.
 print(df.head())
 
 #mostrar las ultimas 5 filas
