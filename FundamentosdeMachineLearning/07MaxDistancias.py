@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from scipy.spatial import distance
 
-#Determinamos las coordenadas de las tiendas
+# Determinamos las coordenadas de las tiendas
 puntos = {
     'Punto A':(2,3),
     'Punto B':(5,4),
@@ -17,7 +17,7 @@ puntos = {
     'Punto H':(2,1)
 }
 
-#convertir las coordenadas a un dataframe
+# Convertir las coordenadas a un dataframe
 df_puntos = pd.DataFrame(puntos).T
 df_puntos.columns = ['X', 'Y']
 print('===========Coordenadas de los Puntos:===========\n')
